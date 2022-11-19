@@ -1,0 +1,34 @@
+{
+  "name": "wavecheck",
+  "version": "1.0.0",
+  "description": "i'll check the waves for you ;)",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec npx ts-node ./main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauAbellaMolina/WaveCheck.git"
+  },
+  "keywords": [
+    "surf",
+    "telegrambot",
+    "waves"
+  ],
+  "author": "Pau Abella Molina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauAbellaMolina/WaveCheck/issues"
+  },
+  "homepage": "https://github.com/PauAbellaMolina/WaveCheck#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "make-a-gif": "^4.1.2",
+    "telegraf": "^4.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
